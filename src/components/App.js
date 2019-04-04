@@ -9,7 +9,9 @@ function App() {
   return (
     <div>
         < NavBar color='black' title="Giphy Search" />
-        <GifListContainer />
+        <div className="container">
+          <GifListContainer />
+        </div>
     </div>
   )
 }
