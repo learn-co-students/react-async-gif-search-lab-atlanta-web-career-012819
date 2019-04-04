@@ -9,6 +9,7 @@ export default class GifListContainer extends Component {
         e.preventDefault()
         const searchStr = e.target.search.value
         console.log('searchStr', searchStr)
+        
         e.target.reset()
     }
     render() {
